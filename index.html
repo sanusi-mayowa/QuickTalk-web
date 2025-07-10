@@ -7,18 +7,11 @@
 </head>
 <body>
     <h1>welcome to QuickTalk</h1>
-    <a id="apkDownload" href="QuickTalk.apk">APK Download</a>
+   <a href="https://expo.dev/accounts/faruq_sanusi/projects/quicktalk/builds/7bc0823f-5e6f-407c-aced-29742baec738">
+  Download APK
+</a>
+    <p>Click the link above to download the QuickTalk APK file.</p>
+    <p>Note: Ensure you have enabled installation from unknown sources in your device settings before installing the APK.</p>
 
-<script>
-  document.getElementById('apkDownload').addEventListener('click', function (e) {
-    e.preventDefault();
-    const link = document.createElement('a');
-    link.href = this.href;
-    link.download = 'QuickTalk.apk'; // You can rename the download file here
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  });
-</script>
 </body>
 </html>
